@@ -1,5 +1,12 @@
 # Arduino
 Projetos feito em Arduino
+
+
+https://github.com/user-attachments/assets/9ea21aee-a67b-43c5-9cb0-573a5472a061
+
+
+
+
 #include <Servo.h>
 
 Servo meuServoX;  // Servo para o eixo X (horizontal)
@@ -67,18 +74,11 @@ void loop() {
   Serial.print(" -> Servo X: ");
   Serial.print(anguloX);
   Serial.print(" graus");
-
   Serial.print(" | Joystick Y: ");
   Serial.print(valorLidoY);
   Serial.print(" -> Servo Y: ");
   Serial.print(anguloY);
   Serial.print(" graus");
-
-
-
-https://github.com/user-attachments/assets/9ea21aee-a67b-43c5-9cb0-573a5472a061
-
-
   Serial.print(" | Botão: ");
   Serial.print(digitalRead(pinoBotao) == LOW ? "Pressionado" : "Liberado");
   Serial.print(" -> Servo Z: ");
