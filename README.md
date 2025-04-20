@@ -74,6 +74,11 @@ void loop() {
   Serial.print(anguloY);
   Serial.print(" graus");
 
+
+
+https://github.com/user-attachments/assets/9ea21aee-a67b-43c5-9cb0-573a5472a061
+
+
   Serial.print(" | Botão: ");
   Serial.print(digitalRead(pinoBotao) == LOW ? "Pressionado" : "Liberado");
   Serial.print(" -> Servo Z: ");
